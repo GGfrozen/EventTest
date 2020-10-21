@@ -23,8 +23,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CubeKiller.cs" />
         <option value="$PROJECT_DIR$/Assets/Bomberman/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Bomberman/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Bomberman/Scripts/Bomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Bomberman/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Bomberman/Scripts/Bomb.cs" />
       </list>
     </option>
   </component>
@@ -67,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603261616800</updated>
-      <workItem from="1603261621124" duration="6097000" />
+      <workItem from="1603261621124" duration="6438000" />
     </task>
     <servers />
   </component>

@@ -12,21 +12,17 @@ public class Enemy : MonoBehaviour
     private void Update()
     {
         var hit = Physics2D.Raycast(transform.position, moveDirection, 1f, raycastMask);
-        if (hit.collider == null)
+        if (!hit.collider)
         {
-            var direction = transform.position + moveDirection;
-            transform.DOMove(direction, 0.5f)
+            var direction = moveDirection - (Vector2)transform.position;
+            transform.DOMove(direction, 0.5f);
         }
         else
         {
-            var direction = transform.position - moveDirection;
-            transform.DOMove(direction, 0.5f)
+            var direction = moveDirection + (Vector2)transform.position;
+            transform.DOMove(direction, 0.5f);
         }
     }
     
-    private bool Raycast(Vector2 dir)
-    {
-        var hit = Physics2D.Raycast(transform.position, dir, 1f,raycastMask);
-        return hit.collider != null;
-    }
+    
 }

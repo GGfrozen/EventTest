@@ -123,6 +123,72 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &9501675
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2290058785917643311, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7052750730539124111, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7052750730539124111, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476865436553695248, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3676170692556751858, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
 --- !u!1 &16297996
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89308732}
   - component: {fileID: 89308731}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Border (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -452,7 +518,7 @@ GameObject:
   - component: {fileID: 105758962}
   - component: {fileID: 105758964}
   - component: {fileID: 105758963}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,7 +709,7 @@ GameObject:
   - component: {fileID: 119630993}
   - component: {fileID: 119630995}
   - component: {fileID: 119630994}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -834,7 +900,7 @@ GameObject:
   - component: {fileID: 123511031}
   - component: {fileID: 123511033}
   - component: {fileID: 123511032}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +1009,7 @@ GameObject:
   - component: {fileID: 124004685}
   - component: {fileID: 124004687}
   - component: {fileID: 124004686}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1052,7 +1118,7 @@ GameObject:
   - component: {fileID: 144184892}
   - component: {fileID: 144184894}
   - component: {fileID: 144184893}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1161,7 +1227,7 @@ GameObject:
   - component: {fileID: 154716195}
   - component: {fileID: 154716197}
   - component: {fileID: 154716196}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1270,7 +1336,7 @@ GameObject:
   - component: {fileID: 155154611}
   - component: {fileID: 155154613}
   - component: {fileID: 155154612}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1379,7 +1445,7 @@ GameObject:
   - component: {fileID: 185093969}
   - component: {fileID: 185093971}
   - component: {fileID: 185093970}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1488,7 +1554,7 @@ GameObject:
   - component: {fileID: 202699129}
   - component: {fileID: 202699131}
   - component: {fileID: 202699130}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1762,7 +1828,7 @@ GameObject:
   - component: {fileID: 269744066}
   - component: {fileID: 269744068}
   - component: {fileID: 269744067}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2024,6 +2090,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &295595560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7052750730539124111, guid: 3dced41faf94b4fe68b3d045fcc3baea, type: 3}
+  m_PrefabInstance: {fileID: 9501675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &295595561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295595560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52f3942fa668433dbbd5cb9a922a23a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycastMask:
+    serializedVersion: 2
+    m_Bits: 2870
+  moveDirection: {x: 1, y: 0}
 --- !u!1 &306246880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,7 +2122,7 @@ GameObject:
   - component: {fileID: 306246881}
   - component: {fileID: 306246883}
   - component: {fileID: 306246882}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2226,7 +2313,7 @@ GameObject:
   - component: {fileID: 327408958}
   - component: {fileID: 327408960}
   - component: {fileID: 327408959}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2417,7 +2504,7 @@ GameObject:
   - component: {fileID: 359064668}
   - component: {fileID: 359064670}
   - component: {fileID: 359064669}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2526,7 +2613,7 @@ GameObject:
   - component: {fileID: 387186995}
   - component: {fileID: 387186997}
   - component: {fileID: 387186996}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2635,7 +2722,7 @@ GameObject:
   - component: {fileID: 408781324}
   - component: {fileID: 408781326}
   - component: {fileID: 408781325}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2744,7 +2831,7 @@ GameObject:
   - component: {fileID: 557254361}
   - component: {fileID: 557254363}
   - component: {fileID: 557254362}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2853,7 +2940,7 @@ GameObject:
   - component: {fileID: 570088564}
   - component: {fileID: 570088566}
   - component: {fileID: 570088565}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3043,7 +3130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 589950211}
   - component: {fileID: 589950210}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Undestroible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3101,7 +3188,7 @@ GameObject:
   - component: {fileID: 604858978}
   - component: {fileID: 604858980}
   - component: {fileID: 604858979}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3210,7 +3297,7 @@ GameObject:
   - component: {fileID: 632493648}
   - component: {fileID: 632493650}
   - component: {fileID: 632493649}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3244,7 +3331,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.008142769, y: -0.016285166}
+  m_Offset: {x: 0.017890036, y: -0.084516525}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3255,7 +3342,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.75571823, y: 0.7394328}
+  m_Size: {x: 0.5802667, y: 0.6029701}
   m_EdgeRadius: 0
 --- !u!212 &632493650
 SpriteRenderer:
@@ -3319,7 +3406,7 @@ GameObject:
   - component: {fileID: 647242248}
   - component: {fileID: 647242250}
   - component: {fileID: 647242249}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3428,7 +3515,7 @@ GameObject:
   - component: {fileID: 662421525}
   - component: {fileID: 662421527}
   - component: {fileID: 662421526}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_24 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3701,7 +3788,7 @@ GameObject:
   - component: {fileID: 681802769}
   - component: {fileID: 681802771}
   - component: {fileID: 681802770}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3810,7 +3897,7 @@ GameObject:
   - component: {fileID: 686712180}
   - component: {fileID: 686712182}
   - component: {fileID: 686712181}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3919,7 +4006,7 @@ GameObject:
   - component: {fileID: 709577767}
   - component: {fileID: 709577769}
   - component: {fileID: 709577768}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4110,7 +4197,7 @@ GameObject:
   - component: {fileID: 764447000}
   - component: {fileID: 764447002}
   - component: {fileID: 764447001}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4301,7 +4388,7 @@ GameObject:
   - component: {fileID: 786394568}
   - component: {fileID: 786394570}
   - component: {fileID: 786394569}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4399,26 +4486,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &809788493 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1436706686459892358, guid: eaf07e81a3c874c3188a15f6e51f14a6, type: 3}
-  m_PrefabInstance: {fileID: 920348470}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &809788494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809788493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 191b017f667b949a2a20aeecb29270b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  raycastMask:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &842833487
 GameObject:
   m_ObjectHideFlags: 0
@@ -4676,7 +4743,7 @@ GameObject:
   - component: {fileID: 880102588}
   - component: {fileID: 880102590}
   - component: {fileID: 880102589}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4869,7 +4936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1139961345972544819, guid: eaf07e81a3c874c3188a15f6e51f14a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 1139961345972544819, guid: eaf07e81a3c874c3188a15f6e51f14a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4911,8 +4978,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4818045031708303945, guid: eaf07e81a3c874c3188a15f6e51f14a6, type: 3}
+    - target: {fileID: 1436706686459892358, guid: eaf07e81a3c874c3188a15f6e51f14a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9064423240933237207, guid: eaf07e81a3c874c3188a15f6e51f14a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaf07e81a3c874c3188a15f6e51f14a6, type: 3}
 --- !u!1 &983444441
 GameObject:
@@ -5088,7 +5162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1015839830}
   - component: {fileID: 1015839829}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DestroibleObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5146,7 +5220,7 @@ GameObject:
   - component: {fileID: 1018436520}
   - component: {fileID: 1018436522}
   - component: {fileID: 1018436521}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5255,7 +5329,7 @@ GameObject:
   - component: {fileID: 1024151612}
   - component: {fileID: 1024151614}
   - component: {fileID: 1024151613}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5446,7 +5520,7 @@ GameObject:
   - component: {fileID: 1052364869}
   - component: {fileID: 1052364871}
   - component: {fileID: 1052364870}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5555,7 +5629,7 @@ GameObject:
   - component: {fileID: 1065006676}
   - component: {fileID: 1065006678}
   - component: {fileID: 1065006677}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5664,7 +5738,7 @@ GameObject:
   - component: {fileID: 1066916655}
   - component: {fileID: 1066916657}
   - component: {fileID: 1066916656}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5773,7 +5847,7 @@ GameObject:
   - component: {fileID: 1074513045}
   - component: {fileID: 1074513047}
   - component: {fileID: 1074513046}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5964,7 +6038,7 @@ GameObject:
   - component: {fileID: 1184854868}
   - component: {fileID: 1184854870}
   - component: {fileID: 1184854869}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_24 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6160,7 +6234,7 @@ GameObject:
   - component: {fileID: 1192260744}
   - component: {fileID: 1192260746}
   - component: {fileID: 1192260745}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6269,7 +6343,7 @@ GameObject:
   - component: {fileID: 1196369723}
   - component: {fileID: 1196369725}
   - component: {fileID: 1196369724}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6460,7 +6534,7 @@ GameObject:
   - component: {fileID: 1211408970}
   - component: {fileID: 1211408972}
   - component: {fileID: 1211408971}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6651,7 +6725,7 @@ GameObject:
   - component: {fileID: 1245920647}
   - component: {fileID: 1245920649}
   - component: {fileID: 1245920648}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6924,7 +6998,7 @@ GameObject:
   - component: {fileID: 1277282179}
   - component: {fileID: 1277282181}
   - component: {fileID: 1277282180}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7197,7 +7271,7 @@ GameObject:
   - component: {fileID: 1397397929}
   - component: {fileID: 1397397931}
   - component: {fileID: 1397397930}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7306,7 +7380,7 @@ GameObject:
   - component: {fileID: 1437030917}
   - component: {fileID: 1437030919}
   - component: {fileID: 1437030918}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7415,7 +7489,7 @@ GameObject:
   - component: {fileID: 1456068041}
   - component: {fileID: 1456068043}
   - component: {fileID: 1456068042}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7524,7 +7598,7 @@ GameObject:
   - component: {fileID: 1470011973}
   - component: {fileID: 1470011975}
   - component: {fileID: 1470011974}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7633,7 +7707,7 @@ GameObject:
   - component: {fileID: 1470482681}
   - component: {fileID: 1470482683}
   - component: {fileID: 1470482682}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8398,7 +8472,7 @@ GameObject:
   - component: {fileID: 1750507919}
   - component: {fileID: 1750507921}
   - component: {fileID: 1750507920}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8507,7 +8581,7 @@ GameObject:
   - component: {fileID: 1796854952}
   - component: {fileID: 1796854954}
   - component: {fileID: 1796854953}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8780,7 +8854,7 @@ GameObject:
   - component: {fileID: 1835436134}
   - component: {fileID: 1835436136}
   - component: {fileID: 1835436135}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8889,7 +8963,7 @@ GameObject:
   - component: {fileID: 1852367230}
   - component: {fileID: 1852367232}
   - component: {fileID: 1852367231}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8998,7 +9072,7 @@ GameObject:
   - component: {fileID: 1858603654}
   - component: {fileID: 1858603656}
   - component: {fileID: 1858603655}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9107,7 +9181,7 @@ GameObject:
   - component: {fileID: 1871091359}
   - component: {fileID: 1871091361}
   - component: {fileID: 1871091360}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9216,7 +9290,7 @@ GameObject:
   - component: {fileID: 1888867492}
   - component: {fileID: 1888867494}
   - component: {fileID: 1888867493}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9325,7 +9399,7 @@ GameObject:
   - component: {fileID: 1929076404}
   - component: {fileID: 1929076406}
   - component: {fileID: 1929076405}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9434,7 +9508,7 @@ GameObject:
   - component: {fileID: 1942301500}
   - component: {fileID: 1942301502}
   - component: {fileID: 1942301501}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_24 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9789,7 +9863,7 @@ GameObject:
   - component: {fileID: 1975637342}
   - component: {fileID: 1975637344}
   - component: {fileID: 1975637343}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9980,7 +10054,7 @@ GameObject:
   - component: {fileID: 2087180228}
   - component: {fileID: 2087180230}
   - component: {fileID: 2087180229}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10014,7 +10088,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.008142769, y: -0.016285166}
+  m_Offset: {x: 0.017890036, y: 0.022703886}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10025,7 +10099,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.75571823, y: 0.7394328}
+  m_Size: {x: 0.5802667, y: 0.5444865}
   m_EdgeRadius: 0
 --- !u!212 &2087180230
 SpriteRenderer:
@@ -10171,7 +10245,7 @@ GameObject:
   - component: {fileID: 2089843077}
   - component: {fileID: 2089843079}
   - component: {fileID: 2089843078}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10280,7 +10354,7 @@ GameObject:
   - component: {fileID: 2090573488}
   - component: {fileID: 2090573490}
   - component: {fileID: 2090573489}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Destroible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10389,7 +10463,7 @@ GameObject:
   - component: {fileID: 2107992266}
   - component: {fileID: 2107992268}
   - component: {fileID: 2107992267}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10580,7 +10654,7 @@ GameObject:
   - component: {fileID: 2137939642}
   - component: {fileID: 2137939644}
   - component: {fileID: 2137939643}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_40 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10689,7 +10763,7 @@ GameObject:
   - component: {fileID: 2140042719}
   - component: {fileID: 2140042721}
   - component: {fileID: 2140042720}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: backyard_26 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

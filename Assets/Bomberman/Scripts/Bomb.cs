@@ -20,14 +20,13 @@ public class Bomb : MonoBehaviour
         var colliders = Physics2D.OverlapCircleAll(transform.position, explosionRadius, explosionMask);
         foreach (var collider in colliders)
         {
-            
+            Destroy(collider.gameObject);
             if (collider.gameObject.CompareTag("Player"))
             {
-                Debug.Log("hh");
                 var index = SceneManager.GetActiveScene().buildIndex;
                 SceneManager.LoadScene(index);
             }
-            Destroy(collider.gameObject);
+            
             Destroy(gameObject);
             gameObject.SetActive(false);
             
